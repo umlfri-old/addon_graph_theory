@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Domain id="condition" xmlns="http://umlfri.kst.fri.uniza.sk/xmlschema/metamodel.xsd" >
-    <Attribute id="condition" type="str" name="Condition" />
-    <Attribute id="negate" type="bool" name="Negate" />
-    <Attribute id="index" type="int" name="Index" hidden="true"/>
-    <Attribute id="critical" type="bool" name="Critical" hidden="true"/>
-    <Attribute id="value" type="bool" name="Value" hidden="true"/>
-    <Attribute id="note" type="text" name="Note"/>
+    <Attribute id="condition" name="Condition">
+        <Str />
+    </Attribute>
+    <Attribute id="negate" name="Negate">
+        <Bool />
+    </Attribute>
+    <Attribute id="index" name="Index" hidden="true">
+        <Int />
+    </Attribute>
+    <Attribute id="critical" name="Critical" hidden="true">
+        <Bool />
+    </Attribute>
+    <Attribute id="value" name="Value" hidden="true">
+        <Bool />
+    </Attribute>
+    <Attribute id="note" name="Note">
+        <Text />
+    </Attribute>
 </Domain>
