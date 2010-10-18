@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Domain id="edge" xmlns="http://umlfri.kst.fri.uniza.sk/xmlschema/metamodel.xsd" >
-    <Attribute id="directed" name="Directed">
+    <Attribute id="directed" name="Directed" hidden="true">
         <Bool />
     </Attribute>
-    <Attribute id="reversed" name="">
+    <Attribute id="reversed" name="" hidden="true">
         <Bool />
     </Attribute>
     <Attribute id="value" name="Value">
